@@ -136,6 +136,7 @@ def calculate_parabolic_path(pathdata, numrows, crslope, time_step, g):
     temprow = np.zeros([1, 5])
     print(t)
     print(f't_init = {t_init}')
+    print("testing")
 
     while zval >= 0.0:
         t = t + time_step
